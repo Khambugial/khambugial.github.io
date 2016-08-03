@@ -1,1 +1,398 @@
-Hello
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kam Bugial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script src="jquery-latest.min.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+	<!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.4.5.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+<style>
+.footer-btn-right {
+	position: absolute;
+	margin: 0;
+	top: auto;
+	bottom: 0.24em;
+	right: 0.4em;
+}
+</style>
+</head>
+<body id="top">	
+<div data-role="page" id="home">
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#kedarnath">Kedarnath</a></li>
+			<li><a href="#chomassi">Village</a></li>
+			<li><a href="#treking"">Treking</a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>KEDARNATH</h1>
+	</div><!--header-->
+	
+	<div data-role="main" class="ui-content">
+		<h5>News</h5>
+		<h3>Two Paths to Kedarnath</h3>
+		<a href="#news1" data-rel="popup" data-position-to="window" data-transition="fade"><img src="photos/kedar1.jpg" style="width: 90%; margin-left: 5%;"></a>
+		<div data-role="popup" id="news1" data-overlay-theme="b" data-theme="b" data-corners="false">
+			<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>		
+			<img src="photos/kedar2.jpg" style="max-width: 100%;">
+			<h6>Translation</h6>
+			<p>Here goes</p>
+		</div>
+		<h3>Geting Permission and Medical Examination</h3>
+		<div class="ui-grid-a">
+			<a href="#permis" data-rel="popup" data-position-to="window" class="ui-block-b"><img src="photos/permis.jpg" style="width: 90%; margin-left: 5%;"></a>
+			<div data-role="popup" id="permis">
+				<img src="photos/permis.jpg" style="max-width: 100%;">
+			</div>
+			<p class="ui-bloc-b">Is almost obrigatory to visit Guptakashi before start on the treking to meet the official doctor. But don't the worry! The Permission Office is just a few meters after crossing the crowdy market, on the left side of the highway. Um pouco mais de texto so pra saber se o responsible do web funciona.. </p>
+		</div>
+	</div><!--/main-content-->
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->
+</div><!--/page-->
+
+<!--Session Kedarnath-->
+
+<div data-role="page" id="kedarnath">
+	<div data-role="panel" id="kedar" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#" data-rel="close">Kedarnath</a></li>
+			<li><a href="#bugial">Bugial</a></li>
+			<li><a href="#guptakashi">Guptakashi</a></li>
+			<li><a href="#mandakini">Mandakini Foothpath</a></li>
+			<li><a href="#kham">Kham Foothpath</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#kedar" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>KEDARNATH</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+
+</div><!--/page-->	
+	
+<div data-role="page" id="bugial">
+	<div data-role="panel" id="bug" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#kedarnath">Kedarnath</a></li>
+			<li><a href="#" data-rel="close">Bugial</a></li>
+			<li><a href="#guptakashi">Guptakashi</a></li>
+			<li><a href="#mandakini">Mandakini Foothpath</a></li>
+			<li><a href="#kham">Kham Foothpath</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#bug" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>BUGIAL</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+		
+
+</div><!--/page-->
+
+<div data-role="page" id="guptakashi">
+	<div data-role="panel" id="gupta" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#kedarnath">Kedarnath</a></li>
+			<li><a href="#bugial">Bugial</a></li>
+			<li><a href="#" data-rel="close">Guptakashi</a></li>
+			<li><a href="#mandakini">Mandakini Foothpath</a></li>
+			<li><a href="#kham">Kham Foothpath</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#gupta" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>Guptakashi</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+</div><!--/page-->	
+
+<div data-role="page" id="mandakini">
+	<div data-role="panel" id="mdkni" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#kedarnath">Kedarnath</a></li>
+			<li><a href="#bugial">Bugial</a></li>
+			<li><a href="#guptakashi">Guptakashi</a></li>			
+			<li><a href="#" data-rel="close">Mandakini Foothpath</a></li>
+			<li><a href="#kham">Kham Foothpath</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#mdkni" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>Mandakini Path</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+</div><!--/page-->	
+
+<div data-role="page" id="kham">
+	<div data-role="panel" id="kam" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#kedarnath">Kedarnath</a></li>
+			<li><a href="#bugial">Bugial</a></li>
+			<li><a href="#guptakashi">Guptakashi</a></li>			
+			<li><a href="#mandakini">Mandakini Foothpath</a></li>
+			<li><a href="#" data-rel="close">Kham Foothpath</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#kam" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>Kham Foothpath</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+</div><!--/page-->
+
+<!--Session Chomassi-->
+	
+<div data-role="page" id="chomassi">
+	<div data-role="panel" id="massi" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#" data-rel="close">Stay</a></li>
+			<li><a href="#food">Food</a></li>
+			<li><a href="#life">Life</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#massi" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+			
+		<h1>Chomassi Village</h1>
+	
+	</div>
+	<div data-role="main" class="ui-content">
+		<p>adefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfaefdelmmmmmmmmmmmmmlafmdddmflamdflamdlfmaldmfladmflamdlfmadlfmaldmflamv lamdfladmflamdlfmaldfmladmflamdlfmadlmfladmfladmlfa</p>
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+</div><!--/page -->
+
+
+<div data-role="page" id="food">
+	<div data-role="panel" id="kana" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#chomassi">Stay</a></li>
+			<li><a href="#" data-rel="close">Food</a></li>
+			<li><a href="#life">Life</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#kana" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>Food</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		<a href="#food1" data-rel="popup" data-position-to="window"><img src="food1.jpg" style="width: 90%; margin-left: 5%;"></a>
+		<div data-role="popup" id="food1">
+			<img src="food1.jpg" style="max-width: 100%;">
+		</div>				
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+		
+
+</div><!--/page-->
+
+<div data-role="page" id="life">
+	<div data-role="panel" id="jiv" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#chomassi">Stay</a></li>
+			<li><a href="#food">Food</a></li>
+			<li><a href="#" data-rel="close">Life</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#jiv" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>Life</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		<a href="#life1" data-rel="popup" data-position-to="window"><img src="life1.jpg" style="width: 40%; margin-left: 5%;"></a>
+		<div data-role="popup" id="life1">
+			<img src="life1.jpg" style="max-width: 100%;">
+		</div>		
+		<a href="#life2" data-rel="popup" data-position-to="window"><img src="life2.jpg" style="width: 90%; margin-left: 5%;"></a>
+		<div data-role="popup" id="life2">
+			<img src="life2.jpg" style="max-width: 100%;">
+		</div>				
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+		
+
+</div><!--/page-->
+<!--Session Treking-->
+
+<div data-role="page" id="treking">
+	<div data-role="panel" id="trek" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#" data-rel="close">Treking Map</a></li>
+			<li><a href="#tokedar">To Kedarnath</a></li>
+			<li><a href="#tomandani">To Mandani</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#trek" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>Treking Map</h1>
+	</div>	
+	
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+		
+
+</div><!--/page-->	
+
+<div data-role="page" id="tokedar">
+	<div data-role="panel" id="tok" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#treking">Treking Map</a></li>
+			<li><a href="#" data-rel="close">To Kedar</a></li>
+			<li><a href="#tomandani">To Mandani</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#tok" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>TO KEDAR</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+		
+
+</div><!--/page-->
+
+<div data-role="page" id="tomandani">
+	<div data-role="panel" id="tom" data-position="right" data-display="push">
+		<ul data-role="listview">
+			<li><a href="#treking">Treking Map</a></li>
+			<li><a href="#tokedar">To Kedar</a></li>
+			<li><a href="#" data-rel="close">To Mandani</a></li>
+		</ul>
+	</div> <!--/panel -->
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#home" data-icon="home" data-iconpos="notext"></a></li>
+			<li><a href="#tom" data-icon="bars" data-iconpos="notext"></a></li>
+		</ul>
+		</div><!-- /navbar -->
+		
+		<h1>TO MANDANI</h1>
+		</div>	
+
+	<div data-role="main" class="ui-content">
+		
+	</div>
+	<div data-role="footer" data-position="inline">
+		<a class="ui-btn ui-btn-inline ui-mini footer-btn-right ui-icon-carat-u ui-btn-icon-notext ui-corner-all" href="#top" data-ajax="false">top</a>
+	</div><!--/footer-->		
+		
+
+</div><!--/page  https://gohugo.io/tutorials/github-pages-blog/ -->
+</body>
+</html>
+
